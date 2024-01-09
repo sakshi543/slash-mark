@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222 !important; /* Adjust as needed */
+    color: #fff;
+    position: relative;
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+        overflow-y: auto; /* Add vertical scrollbar only when needed */
+
+
+}
+
+.social-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.logo{
+    height: 40px;
+}
+.project {
+    margin-bottom: 20px;
+}
+
+/* Design for top left corner */
+.design-top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #008080, #00CED1); /* Gradient from teal to dark turquoise */
+    border-radius: 20px 80px 20px 80px; /* Complex border-radius */
+    box-shadow: 0 0 20px rgba(0, 206, 209, 0.5); /* Teal shadow */
+    z-index: 1; /* Ensure it's above the text */
+}
+.container-fluid
+{
+    margin: 20px;
+}
+.container1
+{
+    padding-top: 50px;
+}
+.container2
+{
+    padding-top: 120px;
+}
+
+/* Design for bottom right corner */
+.design-bottom-right {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to keep it within the page */
+    right: 20px; /* Adjust this value to keep it within the page */
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(-45deg, #008080, #00CED1);
+    border-radius: 80px 20px 80px 20px;
+    box-shadow: 0 0 20px rgba(0, 206, 209, 0.5);
+    z-index: 1;
+}
+/* Gradient line on the left side of the intro text and projects */
+.line {
+    position: absolute;
+    left: 20px; /* Set left to 0 to align with the left side of the container */
+    width: 5px; /* Adjust the width as needed */
+    height: 90%; /* Set the height to 100% */
+    background: linear-gradient(to bottom,#00CED1, #008080 ); /* Vertical gradient from teal to dark turquoise */
+}
+
+/* Gradient line on the left side of the intro text */
+.intro-line {
+    position: absolute;
+    top: 30px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position to match the design-top-left */
+    width: 5px; /* Adjust the width as needed */
+    height: 90%; /* Set the height to 100% to match container1 */
+    background: linear-gradient(to bottom, #008080, #00CED1); /* Vertical gradient from teal to dark turquoise */
+}
